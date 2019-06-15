@@ -1,0 +1,14 @@
+name: pysm-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - psutil
+  - numba
+  - matplotlib
+  - mpi4py
+  - healpy
+  - pip
+  - pip:
+      - https://github.com/healpy/pysm/archive/master.zip
